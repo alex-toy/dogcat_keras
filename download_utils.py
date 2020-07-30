@@ -68,7 +68,7 @@ def down_fr_url(urls: list, save_dir: str='', unzip: bool=False):
         continue
 
     def indicator(quantity, width=10) :
-        if quantity > 1024: return '{:.0f} MB/s'.format(quantity / 1024).rjust(width)
+        if quantity > 1024: return '{:.0f} MB/s'.format(quantity / 1024).rjust(width) 
         return '{:.0f} KB/s'.format(quantity).rjust(width)
 
     def progress(count, block_size, total_size) :
