@@ -64,7 +64,7 @@ def time_format(secs: int):
 def down_fr_url(urls: list, save_dir: str='', unzip: bool=False):
 
     if os.path.exists(save_path) and os.path.getsize(save_path)>=retri_file_size   (url):
-        print('{} already exists.'.format(save_path))
+        print('{} already exists dev.'.format(save_path)) 
         continue
 
     def indicator(quantity, width=10) :
